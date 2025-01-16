@@ -3,10 +3,7 @@
     margin: 15px;
 }
 
-.card {
 
-    
-}
 .box_card{
     display: flex;
     flex-direction: column;
@@ -36,4 +33,9 @@
     color: #a1a6c7;
     font-size: large;
 font-weight: bold;
+}
+.title{
+    color: #444d90;
+    font-size: 30px;
+    text-align: center;
 }
