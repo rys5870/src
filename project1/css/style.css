@@ -4,52 +4,59 @@
 }
 
 
-.box_card{
+.box_card {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 450px;
     width: 300px;
-   
+
 }
+
 .box_card img {
     height: 300px;
     width: 290px;
 }
 
 .bottom_box {
-   justify-items: center;
+    justify-items: center;
     height: 100px;
     width: 290px;
     background: width;
 }
-.product_name{
+
+.product_name {
     color: #444d90;
     font-size: large;
     font-weight: bold;
 
 }
-.price{
+
+.price {
     color: #a1a6c7;
     font-size: large;
-font-weight: bold;
+    font-weight: bold;
 }
-.title{
+
+.title {
     color: #444d90;
     font-size: 30px;
     text-align: center;
 }
-.gallery_box{
+
+.gallery_box {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.gallery_box img{
+
+.gallery_box img {
     border-radius: 15px;
     margin: 5px;
     height: 100%;
     width: 100%;
 }
-.help{
+
+.help {
     position: fixed;
     height: 100px;
     width: 100px;
@@ -58,7 +65,41 @@ font-weight: bold;
     bottom: 25px;
     right: 25px;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     font-size: 75px;
-    color:white;
+    color: white;
+}
+
+.form {
+    background-color: #a1a6c7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    color: #444d90;
+}
+
+.form_data {
+    border-color: #444d90;
+    min-width: 250px;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+
+}
+
+.sub_but {
+    border-color: #444d90;
+    min-width: 250px;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
 }
