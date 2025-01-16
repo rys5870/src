@@ -21,7 +21,7 @@ header {
 .container {
     max-width: 60%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 header .container img{
     height: 70px;
