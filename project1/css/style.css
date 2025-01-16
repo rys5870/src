@@ -39,3 +39,26 @@ font-weight: bold;
     font-size: 30px;
     text-align: center;
 }
+.gallery_box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery_box img{
+    border-radius: 15px;
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+}
+.help{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background: #444d90;
+    border-radius: 50% 50% 50% 20%;
+    bottom: 25px;
+    right: 25px;
+}
+.fa-whatsapp{
+    font-size: 75px;
+    color:white;
+}
