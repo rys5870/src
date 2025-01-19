@@ -1,0 +1,31 @@
+footer {
+    background: #ddecee;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    height: 40px;
+}
+
+
+footer nav{
+    size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer nav a{
+    size: 20px;
+    width: 25%;
+   
+}
+footer nav b{
+    
+   
+    width: 100%;
+    size: 20px;
+}
+.footer_nav{
+    align-content: space-between;
+}
