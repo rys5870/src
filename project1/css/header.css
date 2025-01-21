@@ -17,14 +17,14 @@ direction: rtl;
 }
 
 header {
-    background: #ddecee;
+    background: #444d90;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 10;
 }
 footer {
-    background: #ddecee;
+    background: #444d90;
     position: sticky;
     bottom: 0;
     left: 0;
@@ -37,7 +37,7 @@ footer {
     margin: 0 auto;
     justify-content: space-evenly;
 }
-header .container img{
+header img{
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -46,24 +46,108 @@ header .container img{
     width: 100%;
 }
 
-
+.nav{
+    justify-content: space-between;
+   
+}
 
 header nav ul li {
-    min-height: 50px;
-    width: 100px;
+    min-height: 60px;
+   min-width:50px;
+    padding: 5px;
     list-style-type: none;
-    background: #ddecee;
+    background: #444d90;
     align-content: center;
     text-align: center;
 
 }
 header nav ul li:hover{
     background-color: #a1a6c7;
+   font-weight:bold;
 }
 
 header nav ul li a {
 
-    color: #444d90;
+    color: white;
     text-decoration: none;
     text-align: center;
 }
+@media (max-width:2000px) {
+    html{
+        font-size: 16px;
+    }
+    .container{
+        width: 75%;
+    }
+    iframe {
+      width: 100%; 
+        height: 600px;
+    }
+    .res{
+        background-color: rgb(102, 0, 255);
+    }
+    .img_par1{
+        width: 100%;
+        margin: 20px;
+    }
+}
+@media (max-width:1050px) {
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 75%;
+    }
+    iframe {
+      width: 100%; 
+        height: 400px;
+    }
+    .res{
+        background-color: black;
+    }
+    .img_par1{
+        width: 80%;
+        margin: 15px;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 10px;
+    }
+    .container{
+        width: 75%;
+    }
+    iframe {
+      width: 100%; 
+        height: 300px;
+    }
+    .res{
+        background-color: yellow;
+    }
+    .img_par1{
+        width: 60%;
+        margin: 10px;
+    }
+}
+@media (max-width:550px) {
+    html{
+        font-size: 7px;
+    }
+    .container{
+       
+        width: 95%;
+    }
+    iframe {
+        width: 100%; 
+        height: 200px;
+       
+    }
+    .res{
+        background-color: red;
+    }
+    .img_par1{
+        width: 40%;
+        margin: 1px;
+    }
+}
+
